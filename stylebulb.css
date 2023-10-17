@@ -1,0 +1,31 @@
+/* .set{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+} */
+
+#box {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+
+
+#bulb{
+    margin: 0px 590px;
+
+}
+
+#dark{
+    width: 100px;
+    margin: 10px 760px;
+    color: red;
+    font-size: 40px;
+}
+
+#light{
+    width: 100px;
+    margin: 10px 760px;
+    color: red;
+    font-size: 40px;
+}
