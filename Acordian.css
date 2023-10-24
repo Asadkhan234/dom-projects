@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #bedfe8;
+    flex-direction: column;
+}
+
+.acordian{
+    max-width: 800px;
+}
+
+.acordian .contentbx{
+    position: relative;
+    margin: 10px 20px;
+}
+
+
+.acordian .contentbx .label{
+    position: relative;
+    padding: 10px;
+    background: #2694af;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.acordian .contentbx .label::before{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
+
+.acordian .contentbx.active .label::before{
+    content: "-";
+    font-size: 2rem;
+}
+
+
+
+
+.acordian .contentbx .content{
+    position: relative;
+    background-color: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.acordian .contentbx.active .content{
+    height: 150px;
+    padding: 10px;
+}

@@ -1,5 +1,9 @@
 let gameboard=document.querySelector("#gameboard")
 let infoDisplay=document.querySelector("#info")
+let tic=document.querySelector(".tic")
+// document.body.style.color="blue"
+
+
 
 const startCell=[
     "","","","","","","","",""
@@ -7,7 +11,7 @@ const startCell=[
 
 
 let go="circle"
-infoDisplay.textContent="Circle goes first"
+infoDisplay.textContent="CIRCLE GOES FIRST"
 
 function createBoard(){
     startCell.forEach((cell,index)=>{
@@ -16,6 +20,7 @@ function createBoard(){
        cellElement.id=index;
        cellElement.addEventListener("click",addGo)
        gameboard.append(cellElement)
+       
     })
 }
 
@@ -26,9 +31,10 @@ const goDisplay=document.createElement("div")
 goDisplay.classList.add(go)
 e.target.append(goDisplay)
 go=go==="circle" ? "cross":"circle"
-infoDisplay.textContent="it is now "+go+"'s go."
+infoDisplay.textContent="IT IS NOW "+go+"'s GO."
 e.target.removeEventListener("click",addGo)
-
+document.body.style.color="blue"
+// document.body.style.color="red"
 checkScore()
 }
 
@@ -49,7 +55,7 @@ function checkScore(){
             Allsquare[cell].firstChild?.classList.contains("circle"))
 
          if(circlewins){
-            infoDisplay.textContent="circle wins!"
+            infoDisplay.textContent="CIRCLE WINS!"
             Allsquare.forEach(square => square.replaceWith(square.cloneNode(true)))
             return
          }
@@ -66,7 +72,7 @@ function checkScore(){
               Allsquare[cell].firstChild?.classList.contains("cross"))
   
            if(crosswins){
-              infoDisplay.textContent="cross wins!"
+              infoDisplay.textContent="CROSS WINS!"
               Allsquare.forEach(square => square.replaceWith(square.cloneNode(true)))
               return
            }
