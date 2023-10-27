@@ -60,6 +60,18 @@ body{
 #descriptive{
     margin: 30px 0;
     list-style: none;
+    color: blue;
+    box-shadow: 0px 5px 5px blue;
+}
+
+#descriptive:hover{
+    color: red;
+    background-color: blue;
+   
+}
+
+.code{
+    box-shadow: 0px 4px 4px blue;
 }
 
 #descriptive a{

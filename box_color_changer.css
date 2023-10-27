@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    box-shadow: 10px 10px 10px red;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+
+
+#grey{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+   border: 5px solid red;
+}
+
+#blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 5px solid green;
+}
+
+#green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 5px solid red;
+}
+
+#red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid blue;
+}

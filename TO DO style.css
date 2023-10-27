@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+li{
+margin: 10px;
+padding: 5px;
+border-radius: 10px;
+background-color: orange;
+}
+
+
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+  margin: 10px;
+}
+
+#edit{
+    width: 70px;
+    background-color: yellowgreen;
+    border-radius: 10px;   
+}
+
+#edit:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+#delete{
+    width: 70px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+#delete:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
