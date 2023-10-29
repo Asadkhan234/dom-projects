@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:aqua;
+}
+
+
+#set{
+    margin: 80px 20px;
+    width: 500px;
+
+}
+label{
+    font-size: 30px;
+  
+}
+
+#height{
+    margin: 50px 10px;
+    border:2px solid red;
+    color: blue;
+    font-size: 20px;
+    padding: 5px;
+}
+#weight{
+    margin: 50px 10px;
+    border:2px solid red;
+    color: blue;
+    font-size: 20px;
+    padding: 5px;
+
+}
+button{
+    margin: 80px 30px;
+    font-size: 30px;
+    font-weight: 900;
+    border:  5px solid red;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color: white;
+    background-color: black;
+}
