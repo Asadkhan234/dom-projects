@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:orange;
+}
+
+
+#but{
+padding-top: 20px;
+margin: 100px;
+}
+
+ul{
+
+    width: 200px;
+    padding: px;
+    border-radius: 10px;
+    margin: 5px;
+    list-style: none;
+    margin: -70px;
+    color: blueviolet;
+}
+
+li{
+    /* margin: 10px; */
+    padding: 5px;
+    width:250px;
+    border-radius: 10px;
+    background-color: orange;
+    margin: 0px -30px;
+    box-shadow: 0px 5px 10px orangered;
+    }
+    
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-size: 20px;
+      margin: 10px;
+    }
+    
+    #val{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #edit{
+        width: 70px;
+        background-color: yellowgreen;
+        border-radius: 10px;   
+    }
+    
+    #edit:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+    
+    
+    #delete{
+        width: 70px;
+        background-color: yellowgreen;
+        border-radius: 10px;
+    }
+    
+    #delete:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+    
+    
+#listitems{
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    height: 60px;
+    box-shadow: 0px 5px 10px blueviolet;
+    background-color: blueviolet;
+    border: 4px solid blueviolet;
+   
+}
+
+#button{
+    font-size: 20px;
+    height: 60px;
+    box-shadow: 0px 5px 10px blueviolet;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: whitesmoke;
+    border-radius: 30%;
+}

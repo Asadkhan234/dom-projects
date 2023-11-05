@@ -16,16 +16,17 @@ if(height === "" || height<0 || isNaN(height)){
     const bmi=(weight / ((height*height) / 1000).toFixed(2))
     // show the reasult
     reasult.innerHTML=`<span>${bmi + " BMI"}</span>`
-    if(bmi==18.5){
-        cheacker.innerHTML="Under weight"
-    }else if (bmi==18.6 || cheacker==24.5){
-        cheacker.innerHTML="Normal weight"
-    }else if(bmi==30){
-        cheacker.innerHTML="Over weight"
-    }else{
-        cheacker.innerHTML="soory"
-    }
 }
 
 
 })
+
+if(reasult==18.5){
+    cheacker.innerHTML="Under weight"
+}else if (reasult==18.6 || cheacker==24.5){
+    cheacker.innerHTML="Normal weight"
+}else if(reasult==30){
+    cheacker.innerHTML="Over weight"
+}else{
+   
+}
